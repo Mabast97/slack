@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style/mainStyle.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <section class="flex container"> <!-- main container -->
+            
+            <section id="leftSection">
+                <div>
+                    <span>Re:Coded Web Dev Bootcamp <i class="fas fa-angle-down"></i></span>
+                    <i class="far fa-bell"></i>
+                </div>
+                <h5>Mabast (name of the user)</h5>
+            
+                <input type="text" placeholder="Jump to..." id="jump-to-input" class="marginTop"/>
+            
+                <div class="marginTop">
+                    <i class="far fa-comment"></i> All Threads
+                </div>
+            
+                <div id="channels" class="marginTop">
+                    <a><h4>Channels <span class="fas fa-plus-circle"></span></h4></a>
+                    <a href="#"># bootcamp</a>
+                    <a href="#"># extra-notes</a>
+                    <a href="#"># general</a>
+                    <a href="#"># random</a>
+                    <a href="#"># front-end</a>
+                </div>
+                
+                <div id="messages" class="marginTop">
+                    <a><h4>Direct Messages <span class="fas fa-plus-circle"></span></h4></a>
+                    <a href="#"><i class="fas fa-circle online"></i> Mabast</a>
+                    <a href="#"><i class="fas fa-circle online"></i> Krmanj</a>
+                    <a href="#"><i class="fas fa-circle online"></i> Ahmed</a>
+                    <a href="#"><i class="far fa-circle"></i> Mohammed</a>
+                    <a href="#"><i class="far fa-circle"></i> Zahra</a>
+                </div>
+            
+            </section> <!-- leftSection -->
+
+            <section id="rightSection">
+            <div id="topDiv" class="flex">
+                <div id="leftTopDiv">
+                    <h2 id="nameOfRecieverAtTop">#name of reciever (js)</h2>
+                    <div id="secondPart-leftTopDiv">
+                        <i class="far fa-star"></i>
+                        <span id="h"> <i class="fas fa-circle online"></i> active</span>
+                        <span id="nameOfReciver">Mabast Hashm (js)</span>
+                    </div>
+                </div>
+
+                <div id="rightTopDiv">
+                    <a href="#" class="fas fa-info-circle p-right"></a>
+                    <a href="#" class="fas fa-cog p-right"></a>
+                    <input type="text" placeholder="Search" id="searchInput" />
+                    <span id="a"> @ </span>
+                    <a href="#" class="far fa-star p-right"></a>
+                    <a href="#" class="fas fa-ellipsis-v p-right"></a>
+                </div>
+            </div>
+
+            <div id="mainContent"> 
+
+                <div id="chats">
+                    <div class="first-one">
+                        <img src="images/DSC02498.JPG" class="image"/>
+                        <div>
+                            <h3 class="nameOfSender">Mabast Hashm</h3>
+                            <p class="bodyOfMessage">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iste similique repellendus inventore 
+                            perferendis? Adipisci, facere! 
+                            Fugit nesciunt blanditiis, 
+                            quis iste odit iure mollitia excepturi ipsa, 
+                            beatae error libero similique inventore!</p>
+                        </div>
+                    </div>
+
+                    <div class="second-one">
+                        <img src="images/IMG_8425.JPG" class="image"/>
+                        <div>
+                            <h3 class="nameOfSender">Krmanj Faris</h3>
+                            <p class="bodyOfMessage t2">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iste similique repellendus inventore 
+                            perferendis? Adipisci, facere! 
+                            Fugit nesciunt blanditiis, 
+                            quis iste odit iure mollitia excepturi ipsa, 
+                            beatae error libero similique inventore!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="sendingDiv">
+                    <button type="button" id="sendButton"> + </button>
+                    <input type="text" placeholder="Message @nameOfReciever (JS)" id="sendText">
+                </div>
+            </div> <!-- mainContent -->
+        </section> <!-- rightSection -->
+
+        
+
+    </section> <!-- main container -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

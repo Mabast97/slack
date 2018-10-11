@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex{ display: flex; }
+
+.container{
+    height: 100%;
+}
+
+#leftSection {
+    display: block;
+    min-width: 240px;
+    max-width: 400px;
+    height: 100vh;
+    background-color: #4d394b;
+    color: lightgray;
+    padding: 10px;
+ }
+
+ #leftSection a {
+     display: block;
+     color: lightgray;
+     text-decoration: none;
+     padding: 9px;
+ }
+
+ #leftSection a:hover{
+     background-color: #342032;
+ }
+
+ .marginTop{ margin-top: 20px; }
+
+ #topDiv{
+     height: 70px;
+     border-bottom: 1px solid gray;
+     padding: 10px;
+ }
+
+ #rightTopDiv{
+     margin: auto 10px auto auto;
+    }
+
+#rightTopDiv a{
+    text-decoration: none;
+    color: gray;
+    padding-right: 10px;
+}
+
+#h{
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    padding: 0 8px 0 8px;
+}
+
+#rightTopDiv .fa-info-circle:hover, #rightTopDiv .fa-cog:hover, #rightTopDiv .fa-ellipsis-v:hover{
+    color: blue;
+}
+
+#rightTopDiv #a{
+    cursor: pointer;
+}
+
+#rightTopDiv #a:hover{
+    color: red;
+}
+
+#rightTopDiv .fa-star:hover{
+    color: gold;
+}
+
+#searchInput{
+    max-width: 180px;
+    min-width: 70px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;   
+    cursor: pointer;
+    font-size: 1em;
+    padding-left: 8px;
+}
+    
+ .p-right{
+     padding-right: 10px;
+ }
+
+.leftBorder{ 
+    border-left: 2px solid gray;
+    padding-left: 10px;
+}
+
+ #secondPart-leftTopDiv{
+     padding-top: 8px;
+ }
+
+ .fa-circle{
+     font-size: 0.7em;
+ }
+
+ .online{
+     color: #38978d;
+ }
+
+ #jump-to-input{
+     background-color: #342032;
+     border: none;
+     outline: none;
+     width: 95%;
+     height: 30px;
+     padding: 10px;
+     color: white;
+ }
+
+#messages a h4 span{
+    margin-left: 35%;
+}
+
+#channels a h4 span{
+    margin-left: 57%;
+}
+
+#mainContent{
+    color: #2c2d30;
+    padding: 20px;
+}
+
+#chats{
+    overflow-y: auto;
+    height: 555px;
+}
+
+.image{
+    width: 35px;
+    height: 35px;
+    border-radius: 15%;
+    margin-right: 10px;
+}
+
+.first-one{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.second-one{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.nameOfSender{
+    margin-bottom: 10px;
+}
+
+.bodyOfMessage{
+    margin-bottom: 5px;
+}
+
+#sendButton{
+    border-left: 2px solid darkgray;
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 40px;
+    font-size: 1.3em;
+    height: 40px;
+    color: gray;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+#sendButton:hover{
+    background-color: #38978d;
+    color: white;
+    border-color: green;
+}
+
+#sendText{
+    width: 93%;
+    height: 39px;
+    font-size: 1.1em;
+    margin-left: -4px;
+    border-left: none;
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+    outline:none;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
